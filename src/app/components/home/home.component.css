@@ -1,0 +1,52 @@
+.container-home {
+  position: relative;
+}
+
+.image-container h1 {
+  width: 90%;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 700;
+  
+  letter-spacing: .0625rem;
+
+  color: #fff;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.text-container {
+  background-image: url(https://cdn.discordapp.com/attachments/1154212556097978418/1154227582426943498/cine_publico.webp);
+  opacity: .95;
+  margin: 0 ;
+  height: calc(100vh - 64px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+
+  gap: 2rem;
+}
+
+.text h1 {
+  font-size: 6rem;
+  font-weight: 700;
+  letter-spacing: .0625rem;
+}
+
+.text p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  letter-spacing: .05rem;
+  text-align: center;
+}

@@ -1,0 +1,9 @@
+.header {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 20px;
+}
