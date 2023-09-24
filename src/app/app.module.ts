@@ -9,19 +9,29 @@ import { FooterComponent } from './components/footer/footer.component';
 
 import { MaterialModule } from './modules/material/material.module';
 import { HomeComponent } from './components/home/home.component';
+import { MovieFormComponent } from './components/movie-form/movie-form.component';
+import { MovieListComponent } from './components/movie-list/movie-list.component';
+
+import { HttpClientModule } from '@angular/common/http';
+
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    MovieFormComponent,
+    MovieListComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

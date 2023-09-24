@@ -1,0 +1,25 @@
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.movie-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    max-width: 25rem;
+    height: 40rem;
+    gap: 1rem;
+}
+
+.movie-card  img{
+    width: 50%;
+    object-fit: cover;
+}

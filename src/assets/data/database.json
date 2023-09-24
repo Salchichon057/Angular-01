@@ -1,0 +1,76 @@
+{
+  "movies" : [
+    {
+      "id": 1,
+      "title": "The Batman",
+      "description": "Un joven Bruce Wayne se enfrenta a un nuevo villano, The Riddler, que busca exponer la corrupción en Gotham City.",
+      "image": "https://pics.filmaffinity.com/The_Batman-449856406-large.jpg",
+      "time": 175,
+      "date": "2022-03-04"
+    },
+    {
+      "id": 2,
+      "title": "Top Gun: Maverick",
+      "description": "Pete 'Maverick' Mitchell vuelve al servicio activo de la Marina para entrenar a un grupo de pilotos para una misión especializada.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/1/13/Top_Gun_Maverick_Poster.jpg",
+      "time": 131,
+      "date": "2022-05-27"
+    },
+    {
+      "id": 3,
+      "title": "Doctor Strange in the Multiverse of Madness",
+      "description": "Doctor Strange abre la puerta al Multiverso y debe enfrentarse a una nueva amenaza que puede destruir todo lo que conoce.",
+      "image": "https://m.media-amazon.com/images/I/81iew7GtO9L._AC_UF894,1000_QL80_.jpg",
+      "time": 126,
+      "date": "2022-05-06"
+    },
+    {
+      "id": 4,
+      "title": "Spider-Man: No Way Home",
+      "description": "Peter Parker pide ayuda a Doctor Strange para borrar su identidad de la memoria de todos, pero la magia sale mal y atrae a villanos de otros universos.",
+      "image": "https://img.ecartelera.com/noticias/fotos/70100/70190/1.jpg",
+      "time": 148,
+      "date": "2021-12-17"
+    },
+    {
+      "id": 5,
+      "title": "The Lost City",
+      "description": "Una novelista romántica de éxito es secuestrada por un multimillonario que cree que ella puede ayudarlo a encontrar un tesoro perdido.",
+      "image": "https://flxt.tmsimg.com/assets/p19549414_v_v13_al.jpg",
+      "time": 112,
+      "date": "2022-03-10"
+    },
+    {
+      "id": 6,
+      "title": "The Adam Project",
+      "description": "Un piloto de combate del futuro viaja en el tiempo para buscar la ayuda de su yo de 12 años para salvar el mundo.",
+      "image": "https://flxt.tmsimg.com/assets/p21396488_v_v13_ab.jpg",
+      "time": 109,
+      "date": "2022-03-11"
+    },
+    {
+      "id": 7,
+      "title": "The Northman",
+      "description": "Un príncipe vikingo busca venganza por el asesinato de su padre.",
+      "image": "https://pics.filmaffinity.com/El_hombre_del_norte-710039658-large.jpg",
+      "time": 137,
+      "date": "2022-04-22"
+    },
+    {
+      "id": 8,
+      "title": "Everything Everywhere All at Once",
+      "description": "Una mujer china-estadounidense descubre que es la única persona que puede salvar el multiverso.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Everything_Everywhere_All_at_Once.jpg/220px-Everything_Everywhere_All_at_Once.jpg",
+      "time": 140,
+      "date": "2022-03-11"
+    },
+    {
+      "id": 9,
+      "title": "RRR",
+      "description": "Dos héroes legendarios de la India se unen para luchar contra el Imperio Británico.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/RRR_Poster.jpg/220px-RRR_Poster.jpg",
+      "time": 187,
+      "date": "2022-03-25"
+    }
+  ]
+}
