@@ -1,0 +1,42 @@
+
+<div class="container">
+    <div>
+        <h2>Datos de la Película</h2>
+        <mat-card class="movie-card">
+            <form action="">
+                <div class="form-group">
+                    <h3>Título</h3> 
+                    <input type="text" name="title" [(ngModel)]="movie.title" placeholder="Title" class="form-control" autofocus>
+                </div>
+                <div class="form-group">
+                    <h3>Fecha de Estreno</h3> 
+                    <input type="text" name="date" [(ngModel)]="movie.date" placeholder="yyyy-MM-dd" class="form-control" autofocus>
+                </div>
+                <div class="form-group">
+                    <h3>Descripción de la Pelicula</h3> 
+                    <textarea name="description" [(ngModel)]="movie.description" placeholder="Description" rows="2" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <h3>Portada de la Película</h3> 
+                    <input type="url" name="image"  [(ngModel)]="movie.image" placeholder="Image" class="form-control" >
+                </div>
+                <button mat-raised-button (click)=" edit ?  updateMovie() : saveNewMovie()" color="primary">
+                    GUARDAR
+                </button>
+            </form>
+        </mat-card>
+    </div>
+    <div>
+        <h2>Previsualización de Datos</h2>
+        <mat-card class="movie-card" >
+            <mat-card-header class="center">
+                <mat-card-title> {{movie.title == '' ? 'Movie Title' : movie.title}} </mat-card-title>
+                <mat-card-subtitle> {{movie.date | date: 'yyyy-MM-dd'}}</mat-card-subtitle>
+            </mat-card-header>
+            <img  [src]="movie.image == '' ? '/assets/no-image.png' : movie.image" class="center">
+            <mat-card-content >
+                <p>{{movie.description}}</p>
+            </mat-card-content>
+        </mat-card>
+    </div>
+</div>

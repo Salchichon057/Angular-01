@@ -1,20 +1,18 @@
 {
-  "movies" : [
+  "movies": [
     {
       "id": 1,
       "title": "The Batman",
       "description": "Un joven Bruce Wayne se enfrenta a un nuevo villano, The Riddler, que busca exponer la corrupción en Gotham City.",
-      "image": "https://pics.filmaffinity.com/The_Batman-449856406-large.jpg",
-      "time": 175,
-      "date": "2022-03-04"
+      "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/The-batman-20226065.jpg",
+      "time": 175
     },
     {
       "id": 2,
       "title": "Top Gun: Maverick",
       "description": "Pete 'Maverick' Mitchell vuelve al servicio activo de la Marina para entrenar a un grupo de pilotos para una misión especializada.",
       "image": "https://upload.wikimedia.org/wikipedia/en/1/13/Top_Gun_Maverick_Poster.jpg",
-      "time": 131,
-      "date": "2022-05-27"
+      "time": 131
     },
     {
       "id": 3,
@@ -49,14 +47,6 @@
       "date": "2022-03-11"
     },
     {
-      "id": 7,
-      "title": "The Northman",
-      "description": "Un príncipe vikingo busca venganza por el asesinato de su padre.",
-      "image": "https://pics.filmaffinity.com/El_hombre_del_norte-710039658-large.jpg",
-      "time": 137,
-      "date": "2022-04-22"
-    },
-    {
       "id": 8,
       "title": "Everything Everywhere All at Once",
       "description": "Una mujer china-estadounidense descubre que es la única persona que puede salvar el multiverso.",
@@ -71,6 +61,13 @@
       "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/RRR_Poster.jpg/220px-RRR_Poster.jpg",
       "time": 187,
       "date": "2022-03-25"
+    },
+    {
+      "title": "Suicide Squad",
+      "description": "Película de superhéroes basado en el equipo de anti-héroes de DC Comics",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjM1OTMxNzUyM15BMl5BanBnXkFtZTgwNjYzMTIzOTE@._V1_.jpg",
+      "time": 0,
+      "id": 10
     }
   ]
 }
