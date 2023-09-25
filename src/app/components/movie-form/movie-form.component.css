@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.movie-card {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 0.25rem;
+  
+  max-width: 25rem;
+  height: 40rem;
+  gap: 1rem;
+}
+.movie-card form {
+  padding: 1rem;
+}
+
+.movie-card .form-group {
+  margin-bottom: 1rem;
+}
+
+.movie-card input,
+.movie-card textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+}
+
+.movie-card textarea {
+  height: 100px;
+}
+
+.movie-card  img{
+  width: 50%;
+  object-fit: cover;
+  transform: translateX(50%);
+}
+
+.movie-card input:invalid,
+.movie-card textarea:invalid {
+  border-color: #dc3545;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
